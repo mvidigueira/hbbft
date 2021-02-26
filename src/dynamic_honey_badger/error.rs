@@ -1,4 +1,3 @@
-use bincode;
 use failure::Fail;
 
 use crate::honey_badger;

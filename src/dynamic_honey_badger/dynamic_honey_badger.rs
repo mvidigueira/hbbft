@@ -4,7 +4,6 @@ use std::sync::Arc;
 use std::{fmt, result};
 
 use crate::crypto::{PublicKey, SecretKey, Signature};
-use bincode;
 use derivative::Derivative;
 use log::debug;
 use rand::Rng;

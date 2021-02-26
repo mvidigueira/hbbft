@@ -3,7 +3,6 @@ use std::sync::Arc;
 use std::{fmt, result};
 
 use crate::crypto::SignatureShare;
-use bincode;
 use log::debug;
 use rand::Rng;
 

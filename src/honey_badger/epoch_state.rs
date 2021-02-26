@@ -7,7 +7,6 @@ use std::result;
 use std::sync::Arc;
 
 use crate::crypto::Ciphertext;
-use bincode;
 use log::error;
 use rand::Rng;
 use serde::{de::DeserializeOwned, Deserialize, Serialize};

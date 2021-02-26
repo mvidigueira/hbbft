@@ -1,7 +1,6 @@
 use std::collections::{BTreeMap, HashMap};
 
 use crate::crypto::{SecretKey, Signature};
-use bincode;
 use serde::{Deserialize, Serialize};
 
 use super::{Change, Error, FaultKind, Result};

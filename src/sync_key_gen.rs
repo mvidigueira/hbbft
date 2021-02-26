@@ -177,7 +177,6 @@ use std::fmt::{self, Debug, Formatter};
 use std::string::ToString;
 use std::sync::Arc;
 
-use bincode;
 use failure::Fail;
 use rand::{self, Rng};
 use serde::{Deserialize, Serialize};

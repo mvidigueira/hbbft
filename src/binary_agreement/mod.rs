@@ -68,7 +68,6 @@ mod bool_multimap;
 pub mod bool_set;
 mod sbv_broadcast;
 
-use bincode;
 use failure::Fail;
 use rand::distributions::{Distribution, Standard};
 use rand::{seq::SliceRandom, Rng};
