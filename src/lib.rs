@@ -147,3 +147,5 @@ pub use crate::sync_key_gen::{to_pub_keys, PubKeyMap};
 pub use crate::traits::{
     ConsensusProtocol, Contribution, CpStep, Epoched, Message, NodeIdT, SessionIdT, Step,
 };
+
+pub use rand::thread_rng as thread_rng_hbbft_compat;
