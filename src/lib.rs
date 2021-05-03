@@ -149,3 +149,5 @@ pub use crate::traits::{
 };
 
 pub use rand::thread_rng as thread_rng_hbbft_compat;
+pub use rand::prelude::ThreadRng as HbThreadRng;
+pub use rand::OsRng;
